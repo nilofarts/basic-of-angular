@@ -1,0 +1,10 @@
+{{id}}<br>
+{{name}}<br>
+{{serverMethod()}}<br>
+
+<!---property binding & event binding-->
+<button (click)="clickMe()" [disabled]="disableButton">Click Me</button>
+
+<!----two way data binding-->
+<input type="text" [(ngModel)]="inputBox">
+{{inputBox}}
